@@ -1,0 +1,17 @@
+* {
+    justify-content: center;
+    align-items: center;
+
+}
+ a:hover {
+    border-bottom: 2.5px solid blue;
+    border-radius: 8px;
+    padding: 2px;
+    color: white;
+    transition: 0.5s;
+ }
+
+ .card:hover {
+    transition: 0.5s;
+    transform: scale(1.06);
+ }

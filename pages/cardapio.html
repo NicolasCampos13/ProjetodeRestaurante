@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/cardapio.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="../index.html"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="local.html">Localização</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cardapio.html">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16" style="margin-right: 10px;">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div data-aos="fade-up">
+    <div class="container my-5">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img
+              src="../img/bannercard.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+              style="max-height: 360px; margin: 10px"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 25px; font-weight: bold">
+                Conheça Nosso Cardápio
+              </h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+                ipsam quibusdam ipsum delectus est consequuntur dolorum error
+                assumenda distinctio, eligendi, velit nihil doloremque fugit ab.
+                Aperiam repudiandae minus aspernatur quidem debitis, velit
+                assumenda, officiis consequuntur impedit dolorum vitae voluptas
+                qui nemo? Quaerat explicabo sed, dolor deserunt incidunt dolorum
+                asperiores dicta, velit soluta aperiam beatae eaque illum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <h1 class="text-center font-weight-bold mb-4">
+        Diversos Sabores Disponíveis
+      </h1>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <div class="col">
+          <div class="card">
+            <img src="../img/palmito.jpeg" class="card-img-top" alt="Palmito" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+
+ 
+      <div class="col">
+          <div class="card">
+            <img
+              src="../img/romeuejulieta.jpeg"
+              class="card-img-top"
+              alt="Romeu e Julieta"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img
+              src="../img/napolitana.jpeg"
+              class="card-img-top"
+              alt="Napolitana"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img src="../img/doce.jpeg" class="card-img-top" alt="Pizza Doce" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img
+              src="../img/muçarela.jpeg"
+              class="card-img-top"
+              alt="Muçarela"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img
+              src="../img/mrguerita.jpeg"
+              class="card-img-top"
+              alt="Marguerita"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img
+              src="../img/frangoecatupiri.jpeg"
+              class="card-img-top"
+              alt="Frango e Catupiri"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img
+              src="../img/calabresa.jpeg"
+              class="card-img-top"
+              alt="Calabresa"
+              style="max-height: 170px;"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light text-dark mt-5">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Sobre a Pizzaria</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, accusantium.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>Páginas</h2>
+            <ul class="list-unstyled">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/cardapio.html">Cardápio</a></li>
+              <li><a href="../pages/local.html">Local</a></li>
+              <li><a href="../pages/sobre.html">Sobre</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>Localidade</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      ul li a {
+        color: black;
+        text-decoration: none;
+      }
+      ul {
+        margin: 0 auto;
+        padding: 0;
+      }
+      ul li a:hover {
+        font-weight: bold;
+      }
+    </style>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
